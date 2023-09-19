@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="contactenos.css">
+</head>
+<body>
+    <header>
+        <h1>Confecciones F & M</h1>
+        <h3>
+            <a href="https://www.instagram.com/"><img src="logoinsta.png" alt="instagram" titlle="instagram" width="30" height="30"></a>
+            <a href="https://www.whatsapp.com/?lang=es_LA"><img src="logowpp.png" alt="whatsapp" titlle="whatsapp" width="30" height="30"></a>
+            <a href="https://www.facebook.com/?locale=es_LA"><img src="logofb.png" alt="facebook" titlle="facebook" width="30" height="30"></a>
+        <nav>
+            <ul>
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="somos.html">Quienes somos</a></li>
+                <li><a href="productos.html">productos/servicios</a></li>
+                <li><a href="#contactenos">contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <section>
+            <form name="formulario" method="get" action="procesar.php">
+                <fieldset>
+                    <legend>
+                        <h1>Datos personales</h1>
+                    </legend>
+                    <P><strong><em>Ingresa tu nombre:</em></strong><input type="text" name="nombre" size="50" autofocus
+                            required /></P>
+                    <p><strong><em>Ingresa tus apellidos:</em></strong><input type="text" name="apellido" size="50"
+                            required /></strong>
+                    <p><strong><em>Género:</strong></em></p>
+                    <p><input type="radio" name="genero" value="Hombre">hombre
+                        <input type="radio" name="genero" value="Mujer">mujer
+                    <p><strong><em>Ingresa tu Email:</strong></em>
+                        <input type="email" name="email" placeholder="example@example.com" size="30" required />
+                    </p>
+                    <P><strong><em>Ingresa tu fecha de nacimineto:</em></strong><input type="text" name="fecha de nacimineto" size="50" autofocus
+                        required /></P>
+                    <P><strong><em>Ingresa tu numero de contacto:</em></strong><input type="text" name="numero de contacto" size="50" autofocus
+                        required /></P>
+                    <P><strong><em>Horarios:</em></strong><strong><select name="HORARIO"><option name="opciones">selecciona una opcion</option><option name="mañana">MAÑANA</option><option name="tarde">TARDE</option><option name="noche">NOCHE</option><option name="fin de semana">FIN DE SEMANA</option></select></strong></P>
+                            
+                    <p><strong><em>¿Desea recibir informacion sobre novedades y ofertas?</strong></em>
+                    <p><input type="checkbox" name="si deseo recibir notificaciones" value="si">Si deseo recibir
+                        notificaciones
+                    <p><input type="checkbox" name="no deseo recibir notificaciones" value="no">No deseo recibir
+                        notificaciones
+                    <p><strong><em>"Declaro haber leido y aceptar las condiciones generales del programa y la normativa
+                                sobre protección de datos.</strong></em>
+                    <p><input type="checkbox" name="si deseo recibir notificaciones" value="si" checked>Si, acepto las
+                        condiciones y normativas.
+                        <input type="checkbox" name="no deseo recibir notificaciones" value="no">No acepto.
+                    <P><strong><em> Dejanos tu sugerencia:</em></strong><input type="text" name="sugerencias" size="50" autofocus
+                        required /></P>
+                    <p><input type="submit" name="enviar" value="Enviar">
+                        <input type="submit" name="limpiar" value="borrar">   
+                </fieldset>
+            </form>
+            <h2>UBICACION  </h2>
+            <h4>Confecciones F&M</h4>
+            <center><strong><p>cra.57#46-25 Medellin-Antioquia   telefonos:310-442-5789 / 312-875-962</strong></p></center>
+            <center><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d11074.545380728881!2d-4.462215420864572!3d36.70450919445222!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d36.704605!2d-4.459998!5e0!3m2!1ses!2sco!4v1694128376942!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+            <h5>todo vale la pena si lleva hilo,telas y muchas puntadas de AMOR </h5>
+            <div>
+                <footer><br><br>
+                    &copy;creada como practica de HTML y CSS<br>
+                    12-09-23<br>
+                    Estudiante de asistente de sistemas.
+                    
+                </footer>
+            </div>
+        </section>
+    </body>
+    </html>

@@ -1,0 +1,67 @@
+header{
+    background-color:hotpink;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+
+}
+header h3{
+    text-align: right;
+}
+header h3 a{
+    display: inline;
+    margin-right: 20px;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: azure;
+}
+nav a:hover{
+    color:blueviolet;
+    font-size: 30px;
+}
+#productos{
+    text-align: center;
+    background-image: url("imagen_principal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#productos h2{
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
+#productos button{
+    background-color:hotpink;
+    color: black;
+    cursor: pointer;
+    padding: 40px;
+    margin-bottom: 10px;
+    border-radius:  10px;
+    font-size: 20PX;
+}
+#productos h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+#productos p{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}
